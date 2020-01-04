@@ -1,0 +1,51 @@
+body{
+	background:gray;
+	font-family:arial;
+	margin:0;
+}
+
+.greenText{
+	color:green;
+}
+
+.secondary{
+	background: none;
+	color:black;
+}
+
+#special{
+	background: red;
+	color:white;
+}
+
+ol li{
+	background: white;
+	color: blue;
+	display:inline-block;
+	list-style-type: none;
+	padding: 5px 15px;
+}
+
+ul li{
+	display:inline;
+}
+
+.row{
+
+}
+
+.col{
+	background:white;
+	color:red;
+	float:left;
+	width:30%;
+	margin:1%;
+}
+
+ul{
+	clear:both;
+}
+
+.center{
+	text-align: center;
+}
