@@ -1,93 +1,107 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<title> My Webpage </title>
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
-		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" 
-		href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
-		integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-		 <!-- Optional theme -->
-		<link rel="stylesheet" 
-		href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css"
-		integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+		crossorigin="anonymous">
 
 		<link href="main.css" rel="stylesheet" type="text/css" />
 	</head>
 
 	<body>
+		<div class="container">
 		<!-- Navigation Bar -->
-		<nav class="navbar navbar-expand-md navbar-dark bg-dark navbar-fixed-top">
-			<div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="navbar-nav">
-				  <li class="nav-item active">
-				    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-				  </li>
-				  <li class="nav-item">
-				    <a class="nav-link" href="#">Objective</a>
-				  </li>
-				  <li class="nav-item">
-				    <a class="nav-link" href="#">Experience</a>
-				  </li>
-				  <li class="nav-item">
-				    <a class="nav-link" href="#">Projects</a>
-				  <li class="nav-item">
-				    <a class="nav-link" href="#">Education</a>
-				</ul>
-			</div>
-		</nav>
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
 
-		<!-- Empty Space -->
-		<h1>#</h1>
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav mr-auto">
+		      <li class="nav-item">
+		        <a class="nav-link" href="#home">Home</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#objective">Objective</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#experience">Experiences</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#projects">Projects</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#education">Education</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#contact">Contact</a>
+		      </li>
+		  	</ul><!-- Unorder List Section -->
+		  </div><!-- Collapse Section -->
+		</nav><!-- Navigation Section -->
+
 		<!-- Header -->
-		<div class="center">
-			<h1>I<span class="greenText">'</span>m James Tran</h1>
-		</div>
+		<!-- Home -->
+		<section id="home">
+			<h1><strong>I'm James Tran</strong></h1>
+			<p><h2>Computer and Electrical Engineering Student</h2></p>
+		</section><!-- Home Section -->
 
-		<div class="center">
-			<h2>Computer and Electrical Engineering Student</h2>
-		</div>
-		<p class="secondary">
-			<h3>Hello World 3</h3>
-		<class="secondary" /p>
-		<p class="secondary">
-			This is <strong>bold</strong>
-		</p>
-		<p id="special">
-			This is <em>italic</em>
-		</p>
+		<!-- Objective -->
+		<section id="objective">
+			<h2>Objective</h2>
+			<p>Informaion</p>
+			<p>More Information</p>
+		</section><!-- Objective Section -->
 
-		<!--For Styling -->
-		<div class="row">
-			<div class="col">col 1</div>
-			<div class="col">col 2</div>
-			<div class="col">col 3</div>
-		</div>
-		<span></span> 
+		<!-- Experience -->
+		<section id="experience">
+			<h2>Experience</h2>
+		</section><!-- Experience Section -->
 
-		<img src="https://teppenthegame.com/_materials/img/mv_sp.jpg">
-		
-		<p class="secondary"><ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="page2.html">Page 2</a></li>
-			<li><a href="page3.html">Page 3</a></li>
-		<class="secondary" /p></ul>
+		<!-- Projects -->
+		<section id="projects">
+			<h2>Projects</h2><br>
+			<img src="https://teppenthegame.com/_materials/img/mv_sp.jpg" class="middle" width="500" height="500">
+		</section><!-- Projects Section -->
 
-		<ol>
-			<li><strong>item 1</strong></li>
-			<li>item 2</li>
-			<li>item 3</li>
-			<li>item 4</li>
-			<li>item 5</li>
-		</ol>
+		<!-- Education -->
+		<section id="education">
+			<h2>Education</h2>
+		</section> <!-- Education Section -->
+
 		<!-- Bottom Page -->
-		<div class="center">
-			<h1>CONTACT ME</h1>
+		<!-- Contact -->
+		<section>
+			<div class="contact" id="contact">
+				<h2 class="center">CONTACT</h2><br>
+				<b>Phone:</b><br>
+				<p>(919)208-6945</p>
+				<b>Email:</b><br>
+				<p>jatran@aggies.ncat.edu</p>
+			</div>
+		</section> <!-- Contact Section -->
 		</div>
+
 		<!-- Latest compiled and minified JavaScript -->
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
+		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" 
+		crossorigin="anonymous">
+		</script>
+
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
+		crossorigin="anonymous">
+		</script>
+
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" 
+		crossorigin="anonymous">
+		</script>
 	</body>
 
 	<footer>
