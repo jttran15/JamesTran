@@ -47,42 +47,70 @@
 		<!-- Header -->
 		<!-- Home -->
 		<section id="home">
-			<h1><strong>I'm James Tran</strong></h1>
-			<p><h2>Computer and Electrical Engineering Student</h2></p>
+			<div class="home">
+				<h1><strong>Introduction</strong></h1>
+				<p><h2>Welcome to my homepage!</h2></p>
+				<p><h3>My name is James Tran and I am a computer and electrical engineer at North Carolina Agricultural and Technical State University. I am currently a junior and planning on graduating in May 2021. </h3></p>
+			</div>
 		</section><!-- Home Section -->
 
 		<!-- Objective -->
 		<section id="objective">
-			<h2>Objective</h2>
-			<p>Informaion</p>
+			<h1>Objective</h1>
+			<p><h3>The p</h3></p>
 			<p>More Information</p>
 		</section><!-- Objective Section -->
 
 		<!-- Experience -->
 		<section id="experience">
-			<h2>Experience</h2>
+			<h1>Experience</h1>
 		</section><!-- Experience Section -->
 
 		<!-- Projects -->
 		<section id="projects">
-			<h2>Projects</h2><br>
+			<h1>Projects</h1><br>
 			<img src="https://teppenthegame.com/_materials/img/mv_sp.jpg" width="500" height="500">
 		</section><!-- Projects Section -->
 
 		<!-- Education -->
 		<section id="education">
-			<h2>Education</h2>
+			<h1>Education</h1>
 		</section> <!-- Education Section -->
 
 		<!-- Bottom Page -->
 		<!-- Contact -->
 		<section id="contact">
 			<div class="contact">
-				<h2>CONTACT</h2><br>
-				<b>Phone:</b><br>
-				<p>(919)208-6945</p>
-				<b>Email:</b><br>
-				<p>jatran@aggies.ncat.edu</p>
+				<div class="left">
+					<h2>CONTACT</h2><br>
+					<b>Phone:</b><br>
+					<p>(919)208-6945</p>
+					<b>Email:</b><br>
+					<p>jatran@aggies.ncat.edu</p>
+				</div>
+				
+				<div class="right">
+					<form action="mail_handler.php" method="post" name="form">
+						<p>
+							<label for="name">Name</label><br>
+							<input type="text" id="name" name="name" placeholder="Your first name..">
+						</p>
+						<p>
+							<label for="email">Email</label><br>
+							<input type="email" id="e-mail" name="email" placeholder="Enter email.."><br>
+						</p>
+						<p>
+							<label for="phone">Phone Number</label><br>
+							<input type="tel" id="phone-num" name="phone" placeholder="Enter phone number.."><br>
+						</p>
+						<p>
+							<label for="message">Message</label><br>
+							<textarea name="msg" id="msg-box" placeholder="Enter your message..." style="height:100px"></textarea><br>
+						</p>
+						<input type="submit" name="submit" value="Send" id="sub-btn">
+
+					</form>
+				</div>
 			</div>
 		</section> <!-- Contact Section -->
 		</div> <!-- Container Div -->
