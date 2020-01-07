@@ -20,7 +20,6 @@ body{
   	/* Smooth Scroll */
   	overflow-y: scroll;
   	scroll-behavior: smooth;
-  	scroll-snap-type: y mandatory;
 }
 
 section{
@@ -31,7 +30,6 @@ section{
   	text-align: center;
   	width: 100%;
   	height: 100vh;
-  	scroll-snap-align:center;
 }
 
 .navbar {
