@@ -79,7 +79,7 @@
 
 		<!-- Bottom Page -->
 		<!-- Contact -->
-		<section id="contact">
+		<section class="container-fluid" id="contact">
 			<div class="contact">
 				<div class="left">
 					<h2>CONTACT</h2><br>
@@ -90,7 +90,7 @@
 				</div>
 				
 				<div class="right">
-					<form action="mailto:jatran@aggies.ncat.edu" method="post" enctype="text/plain">
+					<form action="#" method="post">
 						<p>
 							<label for="name">Name</label><br>
 							<input type="text" id="name" name="name" placeholder="Your first name..">
@@ -107,7 +107,7 @@
 							<label for="message">Message</label><br>
 							<textarea name="msg" id="msg-box" placeholder="Enter your message..." style="height:100px"></textarea><br>
 						</p>
-						<input type="submit" name="submit" value="Send" id="sub-btn">
+						<input type="submit" name="submit" value="Send" id="sub-btn" onclick="errorMsg()">
 
 					</form>
 				</div>
@@ -129,6 +129,12 @@
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
 		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" 
 		crossorigin="anonymous">
+		</script>
+
+		<script>
+			function errorMsg(){
+				alert("Email can not be sent because Github does not support php. Sorry for the inconvenience.");
+			}
 		</script>
 	</body>
 
