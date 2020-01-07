@@ -50,7 +50,7 @@
 			<div class="home">
 				<h1><strong>Introduction</strong></h1>
 				<p><h2>Welcome to my homepage!</h2></p>
-				<p><h3>My name is James Tran and I am a computer and electrical engineer at North Carolina Agricultural and Technical State University. I am currently a junior and planning on graduating in May 2021. </h3></p>
+				<p><h3>My name is James Tran and I am a computer and electrical engineer at North Carolina Agricultural and Technical State University. I am currently a junior and planning on graduating in May of 2021. </h3></p>
 			</div>
 		</section><!-- Home Section -->
 
@@ -69,7 +69,28 @@
 		<!-- Projects -->
 		<section id="projects">
 			<h1>Projects</h1><br>
-			<img src="https://teppenthegame.com/_materials/img/mv_sp.jpg" width="500" height="500">
+			<div class="slider-container">
+				<span id="slider-img-1"></span>
+				<span id="slider-img-2"></span>
+				<span id="slider-img-3"></span>
+				<span id="slider-img-4"></span>
+				<span id="slider-img-5"></span>
+				<div class="img-container">
+					<img src="img/pic1.jpg" class="slider-img" width="800" height="600">
+					<img src="img/pic2.jpg" class="slider-img" width="800" height="600">
+					<img src="img/pic3.jpg" class="slider-img" width="800" height="600">
+					<img src="img/pic4.jpg" class="slider-img" width="800" height="600">
+					<img src="img/pic5.jpg" class="slider-img" width="800" height="600">
+				</div>
+
+				<div class="button-container">
+					<a href="#slider-img-1" class="slider-button"></a>
+					<a href="#slider-img-2" class="slider-button"></a>
+					<a href="#slider-img-3" class="slider-button"></a>
+					<a href="#slider-img-4" class="slider-button"></a>
+					<a href="#slider-img-5" class="slider-button"></a>
+				</div>
+			</div>
 		</section><!-- Projects Section -->
 
 		<!-- Education -->
@@ -80,9 +101,9 @@
 		<!-- Bottom Page -->
 		<!-- Contact -->
 		<section class="container-fluid" id="contact">
-			<div class="contact">
+			<div class="row">
 				<div class="left">
-					<h2>CONTACT</h2><br>
+					<h2>CONTACT</h2>
 					<b>Phone:</b><br>
 					<p>(919)208-6945</p>
 					<b>Email:</b><br>
@@ -107,7 +128,7 @@
 							<label for="message">Message</label><br>
 							<textarea name="msg" id="msg-box" placeholder="Enter your message..." style="height:100px"></textarea><br>
 						</p>
-						<button type="button" onclick="errorMsg()">Submit</button>
+						<button type="button" class="btn btn-default" onclick="errorMsg()">Submit</button>
 						<!--<input type="submit" name="submit" value="Send" id="sub-btn" onclick="errorMsg()">-->
 
 					</form>

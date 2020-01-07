@@ -64,7 +64,7 @@ strong{
 	font-size:180%;
 }
 
-.contact{
+/*.contact{
 	background-color: gray;
 	width: 80%;
 	height:60%;
@@ -72,27 +72,91 @@ strong{
 	box-shadow: 5px 5px 25px 5px #888888;
 	float:left;
 }
-#sub-btn{
+*/
 
+.slider-container{
+	width:800px;
+	height:600px;
+	margin-left: auto;
+	margin-right:auto;
+	overflow: hidden;
+	text-align: center;
+}
+
+.img-container{
+	width:4000px;
+	height:600px;
+	position:relative;
+	transition: left 2s;
+	-webkit-transition:left 2s;
+	-moz-transition: left 2s;
+	-o-transition:left 2s;
+}
+
+.slider-img{
+	float: left;
+	margin: 0px;
+	padding:0px;
+}
+
+.button-container{
+	top:-40px;
+	position: relative;
+}
+
+.slider-button{
+	display: inline-block;
+	height:10px;
+	width:10px;
+	border-radius: 5px;
+	background-color:white;
+}
+
+#slider-img-1:target ~ .img-container{
+	left: 0px;
+}
+
+#slider-img-2:target ~ .img-container{
+	left: -800px;
+}
+
+#slider-img-3:target ~ .img-container{
+	left: -1600px;
+}
+
+#slider-img-4:target ~ .img-container{
+	left: -2400px;
+}
+
+#slider-img-5:target ~ .img-container{
+	left: -3200px;
+}
+
+.btn-default{
+	background:white;
 }
 
 .left{
 	float:left;
-	margin:20% 0% 0% 20%;
+	margin:50%;
+	display:center;
+	background:white;
+	color:darkblue;
 
 }
 
 .right{
-	float:right;
-	margin:10% 10% 0% 0%;
+	/*float:right;*/
+	margin:20%;
+	background:skyblue;
 }
 
 section#home {
-  background: url(pokemon_bg.jpg) no-repeat center center/cover;;
+  background: url(background/pokemon_bg.jpg) no-repeat center center/cover;;
 }
 
 .home{
-	background-color:darkgray;
+	background-color:skyblue;
 	margin:20% 10%;
 	width:80%;
 	height:60%;
@@ -100,21 +164,21 @@ section#home {
 }
 
 section#objective {
-  background: url(engineering_bg.jpg) no-repeat center center/cover;;
+  background: url(background/engineering_bg.jpg) no-repeat center center/cover;;
 }
 
 section#experience {
-  background: url(engineering_bg2.jpg) no-repeat center center/cover;;
+  background: url(background/engineering_bg2.jpg) no-repeat center center/cover;;
 }
 
 section#projects {
-  background: url(engineering_bg3.jpg) no-repeat center center/cover;;
+  background: url(background/engineering_bg3.jpg) no-repeat center center/cover;;
 }
 
 section#education {
-  background: url(engineering_bg4.jpg) no-repeat center center/cover;;
+  background: url(background/engineering_bg4.jpg) no-repeat center center/cover;;
 }
 
 section#contact {
-  background: url(engineering_bg5.jpg) no-repeat center center/cover;;
+  background: url(background/engineering_bg5.jpg) no-repeat center center/cover;;
 }
