@@ -95,6 +95,8 @@ strong{
 	float: left;
 	margin: 0px;
 	padding:0px;
+	width:auto;
+	height:100%;
 }
 
 .button-container{
@@ -166,6 +168,8 @@ section#home {
 	width:80%;
 	height:60%;
 	box-shadow: 5px 5px 25px 5px #888888;
+	overflow: hidden;
+	overflow-y:scroll;
 }
 
 section#objective {
