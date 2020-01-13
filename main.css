@@ -1,17 +1,12 @@
-*{
-	margin:0px;
-	padding:0px;
-	boxing-sizing:border-box;
-}
+
 
 body{
-	background:darkgray;
+	background:white;
 	font-family:arial;
 	color:white;
-	margin:0;
 	height:100vh;
 	width:100%;
-	overflow: hidden;
+	overflow:hidden;
 }
 
 .container-fluid{
@@ -31,7 +26,10 @@ section{
   	width: 100%;
   	height: 100vh;
 }
-
+.center{
+	text-align: center;
+}
+/*Navbar*/
 .navbar {
   position: fixed;
   top: 0;
@@ -54,14 +52,6 @@ section{
   padding: 1rem;
 }
 
-.center{
-	text-align: center;
-}
-
-strong{
-	font-size:180%;
-}
-
 /*.contact{
 	background-color: gray;
 	width: 80%;
@@ -71,7 +61,82 @@ strong{
 	float:left;
 }
 */
+/*Home*/
+section#home {
+  background: url(background/pokemon_bg.jpg) no-repeat center center/cover;;
+}
 
+.home{
+	background-color:royalblue;
+	padding:5%;
+	min-height: 300px;
+	width:80%;
+	height:60%;
+	box-shadow: 5px 5px 25px 5px #888888;
+	overflow: hidden;
+	overflow-y:scroll;
+	overflow-x:scroll;
+	opacity:0.8;
+	color:white;
+}
+
+/*Objective*/
+.objective{
+	background-color:royalblue;
+	padding:5%;
+	min-height:300px;
+	width:80%;
+	height:60%;
+	box-shadow: 5px 5px 25px 5px #888888;
+	overflow:hidden;
+	overflow-y:scroll;
+	overflow-x:scroll;
+	opacity:0.8;
+}
+
+.obj-text{
+	text-align:left;
+}
+
+section#objective {
+  background: url(background/engineering_bg.jpg) no-repeat center center/cover;;
+}
+
+/*Experience*/
+.experience{
+	background-color:royalblue;
+	padding:5%;
+	min-height:300px;
+	width:80%;
+	height:60%;
+	box-shadow: 5px 5px 25px 5px #888888;
+	overflow:hidden;
+	overflow-y:scroll;
+	overflow-x:scroll;
+	opacity:0.8;
+}
+section#experience {
+  background: url(background/engineering_bg2.jpg) no-repeat center center/cover;;
+}
+
+/*Education*/
+.education{
+	background-color:royalblue;
+	padding:5%;
+	min-height:300px;
+	width:80%;
+	height:60%;
+	box-shadow: 5px 5px 25px 5px #888888;
+	overflow:hidden;
+	overflow-y:scroll;
+	overflow-x:scroll;
+	opacity:0.8;
+}
+section#education {
+  background: url(background/engineering_bg4.jpg) no-repeat center center/cover;;
+}
+
+/*Projects*/
 .slider-container{
 	width:60%;
 	height:40%;
@@ -136,58 +201,28 @@ strong{
 	background:white;
 }
 
-.left{
-	float:left;
-	margin:50%;
-	display:center;
-	background:white;
-	color:darkblue;
-
-}
-
 .projects-text{
 	width:60%;
-	height: 5%;
-	background: darkgray;
+	background: royalblue;
 	text-align: center;
-}
-
-.right{
-	/*float:right;*/
-	margin:20%;
-	background:skyblue;
-}
-
-section#home {
-  background: url(background/pokemon_bg.jpg) no-repeat center center/cover;;
-}
-
-.home{
-	background-color:skyblue;
-	margin:20% 10%;
-	width:80%;
-	height:60%;
-	box-shadow: 5px 5px 25px 5px #888888;
-	overflow: hidden;
-	overflow-y:scroll;
-}
-
-section#objective {
-  background: url(background/engineering_bg.jpg) no-repeat center center/cover;;
-}
-
-section#experience {
-  background: url(background/engineering_bg2.jpg) no-repeat center center/cover;;
 }
 
 section#projects {
   background: url(background/engineering_bg3.jpg) no-repeat center center/cover;;
 }
 
-section#education {
-  background: url(background/engineering_bg4.jpg) no-repeat center center/cover;;
+/*Contact*/
+.col{
+	float:left;
+	width:40%;
 }
-
 section#contact {
   background: url(background/engineering_bg5.jpg) no-repeat center center/cover;;
+}
+.contact-bg{
+	background-color: darkgray;
+	opacity:0.8;
+}
+.text-left{
+	text-align:left;
 }
